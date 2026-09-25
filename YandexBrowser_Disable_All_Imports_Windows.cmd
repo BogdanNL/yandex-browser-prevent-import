@@ -13,13 +13,13 @@ if exist "%SystemRoot%\Sysnative\reg.exe" (
     set "REGEXE=%SystemRoot%\System32\reg.exe"
 )
 
-rem Verify that we can write machine policies.
-"%REGEXE%" add "%POLICY_KEY%" /f >nul 2>&1
-if errorlevel 1 goto :admin_error
-
 rem Boolean Yandex Browser policies are stored as REG_SZ.
 rem 0 = Disabled.
-"%REGEXE%" add "%POLICY_KEY%" /v "ImportOnFirstRun"     /t REG_SZ /d "0" /f || goto :write_error
+rem Write the first named policy to create the key and verify write access.
+rem Avoid an unnamed REG_SZ value, which appears as an unknown browser policy.
+"%REGEXE%" add "%POLICY_KEY%" /v "ImportOnFirstRun" /t REG_SZ /d "0" /f >nul 2>&1
+if errorlevel 1 goto :admin_error
+
 "%REGEXE%" add "%POLICY_KEY%" /v "ImportBookmarks"      /t REG_SZ /d "0" /f || goto :write_error
 "%REGEXE%" add "%POLICY_KEY%" /v "ImportHistory"        /t REG_SZ /d "0" /f || goto :write_error
 "%REGEXE%" add "%POLICY_KEY%" /v "ImportLastSession"    /t REG_SZ /d "0" /f || goto :write_error
