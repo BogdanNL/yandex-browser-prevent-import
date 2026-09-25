@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ImportCookies</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Yandex Browser - Disable ImportCookies</string>
+			<key>PayloadIdentifier</key>
+			<string>io.github.BogdanNL.yandex-browser-prevent-import.ImportCookies.payload</string>
+			<key>PayloadType</key>
+			<string>ru.yandex.desktop.yandex-browser</string>
+			<key>PayloadUUID</key>
+			<string>571A7A3A-F4B2-4C58-BE88-3C7E6DBB266C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Sets ImportCookies to false for the current user.</string>
+	<key>PayloadDisplayName</key>
+	<string>Yandex Browser - Disable ImportCookies</string>
+	<key>PayloadIdentifier</key>
+	<string>io.github.BogdanNL.yandex-browser-prevent-import.ImportCookies</string>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E0F78226-747E-43BF-8CE2-353201E48E52</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

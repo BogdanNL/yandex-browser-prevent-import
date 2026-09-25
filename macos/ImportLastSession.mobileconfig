@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ImportLastSession</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Yandex Browser - Disable ImportLastSession</string>
+			<key>PayloadIdentifier</key>
+			<string>io.github.BogdanNL.yandex-browser-prevent-import.ImportLastSession.payload</string>
+			<key>PayloadType</key>
+			<string>ru.yandex.desktop.yandex-browser</string>
+			<key>PayloadUUID</key>
+			<string>B95DCF3C-2C11-498E-A053-7A3A32A794A3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Sets ImportLastSession to false for the current user.</string>
+	<key>PayloadDisplayName</key>
+	<string>Yandex Browser - Disable ImportLastSession</string>
+	<key>PayloadIdentifier</key>
+	<string>io.github.BogdanNL.yandex-browser-prevent-import.ImportLastSession</string>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A7B3706D-FDC9-408B-BE1D-96667608493A</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ImportOnFirstRun</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Yandex Browser — Disable All Browser Imports</string>
+			<key>PayloadIdentifier</key>
+			<string>ru.yandex.desktop.yandex-browser.CDD5805B-2148-49D1-9435-5F7C53A57099</string>
+			<key>PayloadType</key>
+			<string>ru.yandex.desktop.yandex-browser</string>
+			<key>PayloadUUID</key>
+			<string>CDD5805B-2148-49D1-9435-5F7C53A57099</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ImportBookmarks</key>
+			<false/>
+			<key>ImportHistory</key>
+			<false/>
+			<key>ImportLastSession</key>
+			<false/>
+			<key>ImportSearchEngine</key>
+			<false/>
+			<key>ImportExtensions</key>
+			<false/>
+			<key>ImportOther</key>
+			<false/>
+			<key>ImportSavedPasswords</key>
+			<false/>
+			<key>ImportCookies</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Disables automatic and user-initiated import of supported data categories from other browsers into Yandex Browser.</string>
+	<key>PayloadDisplayName</key>
+	<string>Yandex Browser — Disable All Browser Imports</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.yandex-browser.disable-first-run-import.732328B5-25CE-4492-8DAA-1F3A1AF71043</string>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>732328B5-25CE-4492-8DAA-1F3A1AF71043</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>
